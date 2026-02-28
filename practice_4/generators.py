@@ -1,5 +1,5 @@
 #1-task
-"""
+
 def gen(n):
     lis=[]
     i=0
@@ -11,11 +11,10 @@ n=int(input())
 
 for i in gen(n):
     print(i)
-"""
 
 
 #2-task
-'''
+
 num=int(input())
 
 def gen(n):
@@ -24,11 +23,11 @@ def gen(n):
             yield i
 
 print(*gen(num), sep=', ')
-'''
+
 
 
 #3-task
-'''
+
 num=int(input())
 
 def gen(n):
@@ -37,9 +36,9 @@ def gen(n):
             yield i
 
 print(*gen(num), sep=", ")
-'''
 
-'''
+
+
 a=int(input())
 b=int(input())
 
@@ -48,7 +47,7 @@ def squares(a, b):
         yield i**2
 
 print(*squares(a,b), sep=", ")
-'''
+
 
 #5-task
 num=int(input())
