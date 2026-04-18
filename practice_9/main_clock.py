@@ -22,11 +22,7 @@ from clock import get_hand_angle, draw_hand
 
 
 def create_fallback_hand(width, height, color):
-    """
-    Создаём запасную стрелку-изображение если mickey_hand.png не найден.
-    Рисуем простую стрелку: тонкая снизу, широкая в середине.
-    Изображение рисуется так, что "кончик" смотрит ВВЕРХ (это важно для правильного поворота).
-    """
+
     surf = pygame.Surface((width, height), pygame.SRCALPHA)
     # Рисуем стрелку: кончик вверху, основание внизу
     points = [
